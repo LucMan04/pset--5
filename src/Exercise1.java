@@ -12,7 +12,14 @@ public class Exercise1 {
         double integer = keyboard.nextDouble();
 
         if (integer > 0){
-            
+            System.out.println();
+            System.out.println("Positive.");
+        } else if (integer < 0){
+            System.out.println();
+            System.out.println("Negative.");
+        } else{
+            System.out.println();
+            System.out.println("Zero.");
         }
     }
 }
